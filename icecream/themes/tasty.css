@@ -6,11 +6,12 @@
 @media (prefers-color-scheme: light) {
   :root{ /*NOTE: Make all light theme changes here.*/
       --background-color: #00a669;
-      --base-color: #77777777;
+      --base-color: #372A11AA;
       --toolbar-color: #666666DD;
       --toolbar-font-color: white;
       --toolbar-font-size: 16px;
       --foreground-color: black;
+      --foreground-header-color: black;
       --button-color: #b3d9b6;
       --accent-color: #b3d9b6;
 
