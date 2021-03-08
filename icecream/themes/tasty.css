@@ -42,12 +42,13 @@
 
 @media (prefers-color-scheme: dark) {
   :root{ /*NOTE: Make all dark theme changes here.*/
-      --background-color: #594d00;
+      --background-color: #004423;
       --base-color: #77777777;
       --toolbar-color: #666666DD;
       --toolbar-font-color: white;
       --toolbar-font-size: 16px;
-      --foreground-color: black;
+      --foreground-color: white;
+      --foreground-header-color: white;
       --button-color: #b3d9b6;
       --accent-color: #b3d9b6;
 
@@ -74,4 +75,7 @@
       --font-family-accent: 'Indie Flower', cursive;
       --font-family-code: 'VT323', monospace; */
   }
+}
+img{
+  border-radius: 15px;
 }

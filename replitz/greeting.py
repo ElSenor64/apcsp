@@ -4,6 +4,7 @@ def greeting(firstName):
     print("My name is Morpheous.")
     print("Please choose the blue pill or the red pill...")
 
+
 def pill():
     pillchoice = input("Please enter \'Red\' or \'Blue\':")
     if pillchoice == "Red":

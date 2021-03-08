@@ -92,16 +92,16 @@ def calculateBill():
     pricesum=0
     print("Please add the prices, then input \"Done\" when you are done.")
     while(prompt):
-      itemprice = input("Add a price:")
-      try:
-        itemprice=float(itemprice)
-        pricesum=pricesum+itemprice
-        print("Subtotal: $"+str(pricesum))
-      except:
-        if(itemprice == "Done"):
-          prompt=False
-        else:
-          print("ERROR: Please enter a valid number without \"$\" or enter \"Done\" when done.")
+        itemprice = input("Add a price:")
+        try:
+            itemprice=float(itemprice)
+            pricesum=pricesum+itemprice
+            print("Subtotal: $"+str(pricesum))
+        except:
+            if(itemprice == "Done"):
+                prompt=False
+            else:
+                print("ERROR: Please enter a valid number without \"$\" or enter \"Done\" when done.")
 
     prompt=True
     while(prompt):
@@ -118,7 +118,7 @@ def calculateBill():
     print("Tip:            $"+str(tipval))
     taxval = tax(pricesum)
     print("Sales Tax:      $"+str(taxval))
-    total=float(pricesum)+float(tipval)+float(taxval)
+    total = float(pricesum)+float(tipval)+float(taxval)
     print("Total:          $"+str(total))
     return "Bill total:  $"+str(total)
 

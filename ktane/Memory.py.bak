@@ -2,17 +2,17 @@
 # coding=utf-8
 
 def memory():
-    print("          ⸮                   ¿                        ?          ")
-    print("                   ?              ⸮          ⸮              ¿     ")
-    print("     ?                    ?                        ⸮              ")
-    print("   ⸮          ¿                      ?                  ?       ⸮ ")
-    print("                      ⸮       ¿             ¿                     ")
-    print("           ⸮             ¿        ?              ⸮        ¿       ")
+    print("          ⸮                   ¿        ")
+    print("                   ?              ⸮    ")
+    print("     ?                        ?        ")
+    print("   ⸮          ¿                      ?  ")
+    print("                      ⸮       ¿        ")
+    print("           ⸮             ¿        ?     ")
 
     print("                              STAGE 1                               ")
     print("====================================================================")
-    display1 = raw_input("What is the big number displayed? -> ")
-    buttons1 = raw_input("Enter the numbers on the buttons, separated by a space, from right to left. -> ")
+    display1 = raw_input("What is the big number displayed? ")
+    buttons1 = raw_input("Enter the numbers on the buttons, separated by a space, from right to left. ")
     print("")
     smallNums1 = buttons1.split()
 
@@ -39,8 +39,8 @@ def memory():
     print("")
     print("                              STAGE 2                               ")
     print("====================================================================")
-    display2 = raw_input("What is the big number displayed? -> ")
-    buttons2 = raw_input("Enter the numbers on the buttons, separated by a space, from right to left. -> ")
+    display2 = raw_input("What is the big number displayed? ")
+    buttons2 = raw_input("Enter the numbers on the buttons, separated by a space, from right to left. ")
     print("")
     smallNums2 = buttons2.split()
 
@@ -67,8 +67,8 @@ def memory():
     print("")
     print("                              STAGE 3                               ")
     print("====================================================================")
-    display3 = raw_input("What is the big number displayed? -> ")
-    buttons3 = raw_input("Enter the numbers on the buttons, separated by a space, from right to left. -> ")
+    display3 = raw_input("What is the big number displayed? ")
+    buttons3 = raw_input("Enter the numbers on the buttons, separated by a space, from right to left. ")
     print("")
     smallNums3 = buttons3.split()
 
@@ -95,8 +95,8 @@ def memory():
     print("")
     print("                              STAGE 4                               ")
     print("====================================================================")
-    display4 = raw_input("What is the big number displayed? -> ")
-    buttons4 = raw_input("Enter the numbers on the buttons, separated by a space, from right to left. -> ")
+    display4 = raw_input("What is the big number displayed? ")
+    buttons4 = raw_input("Enter the numbers on the buttons, separated by a space, from right to left. ")
     print("")
     smallNums4 = buttons4.split()
 
@@ -119,8 +119,8 @@ def memory():
     print("")
     print("                              STAGE 5                               ")
     print("====================================================================")
-    display5 = raw_input("What is the big number displayed? -> ")
-    buttons5 = raw_input("Enter the numbers on the buttons, separated by a space, from right to left. -> ")
+    display5 = raw_input("What is the big number displayed? ")
+    buttons5 = raw_input("Enter the numbers on the buttons, separated by a space, from right to left. ")
     print("")
     smallNums5 = buttons5.split()
 
@@ -143,5 +143,3 @@ def memory():
         print("Press the " + label3)
         position5 = smallNums5.index(label3)
         label5 = label3
-
-    print("")

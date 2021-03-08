@@ -2,10 +2,32 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>I Scream</title>
+    <title>I Scream fer Ice cream</title>
     <meta name="author" content="Josh Langley">
     <meta name="description" content="A webpage about tasty things.">
     <link rel="stylesheet" href="./settings.css">
+    <link rel="icon" href="./assets/favicon.svg">
+    <style>
+      tr{
+        background-color: #9aabe0;
+      }
+      @media (prefers-color-scheme:light) {
+        body{
+          background-color: #35CDEA;
+        }
+        h1{
+          color: #2A3628;
+        }
+      }
+      @media (prefers-color-scheme:dark) {
+        body{
+          background-color: #002E31;
+        }
+        h1{
+          color:#BFEDD8;
+        }
+      }
+    </style>
 </head>
 <body>
     <h1>Most Popular Ice Cream Flavors</h1>
@@ -18,7 +40,7 @@
         <tr><td>1</td><td style="background-color:#d8c25d;">Cookies and Cream</td></tr>
         <tr><td>2</td><td>Mint Chocolate Chip</td></tr>
         <tr><td>3</td><td>Vanilla</td></tr>
-        <tr><td>4</td><td>Strawberry</td></tr>
+        <tr><td style="color: red;">4</td><td>Strawberry</td></tr>
         <tr><td>5</td><td>Chocolate</td></tr>
       </table>
     </div>

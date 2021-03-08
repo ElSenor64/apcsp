@@ -7,6 +7,7 @@ def serial(which_state):
         else:
             return False
 
+
 def wires(wires):
     n_wires = 0
     red_wires = 0
@@ -78,4 +79,3 @@ def wires(wires):
         else:
             return "Cut the fourth wire."
 
-def button()
